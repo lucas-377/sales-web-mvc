@@ -35,3 +35,11 @@ body {
         display: none;
     }
 }
+
+/* Mini-Framework by Lucas Santana */
+.btn-inline { display: inline-block; }
+.mb-2 { margin-bottom: 20px; }
+
+html { scroll-behavior: smooth; height: 100%; }
+body {display: flex; flex-direction: column; height: 100%; }
+footer { margin-top: auto; }
