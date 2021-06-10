@@ -43,7 +43,7 @@ namespace SalesWebMvc.Services
                 await _context.SaveChangesAsync();
             }
 
-            catch (DbUpdateException e)
+            catch
             {
                 throw new IntegrityException("Seller has sales appended.");
             }
