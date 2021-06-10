@@ -3,6 +3,7 @@ using SalesWebMvc.Models;
 
 namespace SalesWebMvc.Data
 {
+    // Class that is used to comunicate with DataBase
     public class SalesWebMvcContext : DbContext
     {
         public SalesWebMvcContext (DbContextOptions<SalesWebMvcContext> options)

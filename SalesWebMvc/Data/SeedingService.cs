@@ -5,6 +5,7 @@ using SalesWebMvc.Models.Enums;
 
 namespace SalesWebMvc.Data
 {
+    // Class used to seed Database with minimum items to test.
     public class SeedingService
     {
         private SalesWebMvcContext _context;
